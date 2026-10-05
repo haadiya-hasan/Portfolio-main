@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Haadiya Faruqi — AI & ML student, developer and data science enthusiast." />
+  <title>Haadiya Faruqi — AI / ML Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="fx.css" />
+</head>
+<body>
+  <div class="loader"><div class="ld-name"><span id="ldText"></span><i></i></div><p class="mono">AI / ML PORTFOLIO</p><div class="ld-bar"><b></b></div><div class="ld-num mono">000</div><div class="ld-act"><button data-snd="1">Enter with sound ♪</button><button data-snd="0">Enter silently</button></div></div>
+  <div class="noise"></div>
+  <div class="blobs"><i></i><i></i><i></i></div>
+  <canvas id="bg"></canvas>
+  <div class="cursor"></div>
+  <div class="progress"></div>
+
+  <header class="nav">
+    <a href="#home" class="logo">H<span>.</span></a>
+    <nav>
+      <a href="#about"><small>01</small>About</a>
+      <a href="#stack"><small>02</small>Stack</a>
+      <a href="#work"><small>03</small>Work</a>
+      <a href="#journey"><small>04</small>Journey</a>
+      <a href="#contact"><small>05</small>Contact</a>
+    </nav>
+    <a class="nav-cta" href="mailto:hasan.haadiya@gmail.com">Let's talk <span>↗</span></a>
+    <button class="snd-toggle" aria-label="Toggle sound" title="Sound off">♪</button>
+    <button class="menu" aria-label="Open menu"><i></i><i></i></button>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-meta mono"><span>AI / ML STUDENT</span><span>NOIDA, INDIA</span></div>
+      <div class="hero-main">
+        <p class="kicker reveal">HELLO, I'M HAADIYA</p>
+        <h1 class="reveal">Building <em>intelligent</em><br>things with code.</h1>
+        <div class="hero-bottom reveal">
+          <p>I’m an AI & ML student exploring the intersection of <b>machine learning, data, interfaces and the web.</b> I learn by making things, then making them prettier because apparently software needs interior design too.</p>
+          <div class="hero-actions">
+            <a href="#work" class="button dark">View selected work <span>↘</span></a>
+            <a href="Resume.pdf" class="button light">Download CV <span>↓</span></a>
+          </div>
+        </div>
+      </div>
+      <div class="orb"><span>AI</span><i></i><b></b><u class="chip" style="--i:0">Python</u><u class="chip" style="--i:1">SQL</u><u class="chip" style="--i:2">ML</u><u class="chip" style="--i:3">Flask</u></div>
+      <div class="bot" title="Click me!"><span class="say">hi! ♡</span><svg viewBox="0 0 100 110"><line x1="50" y1="9" x2="50" y2="22"/><circle class="ant" cx="50" cy="7" r="5"/><rect class="hd" x="14" y="22" width="72" height="52" rx="18"/><rect class="scr" x="24" y="32" width="52" height="30" rx="12"/><g class="eyes"><circle cx="39" cy="47" r="7" fill="#fff"/><circle cx="61" cy="47" r="7" fill="#fff"/><circle class="pu" cx="39" cy="47" r="3.2"/><circle class="pu" cx="61" cy="47" r="3.2"/></g><circle class="ch" cx="29" cy="58" r="3.5"/><circle class="ch" cx="71" cy="58" r="3.5"/><rect class="hd" x="30" y="78" width="40" height="26" rx="10"/><circle class="ant" cx="50" cy="91" r="4"/></svg></div>
+      <div class="hero-scroll mono">SCROLL TO EXPLORE <span>↓</span></div><div class="interaction-hint mono">MOVE YOUR CURSOR · TRY H</div>
+    </section>
+
+    <div class="marquee" aria-hidden="true"><div><span>Python</span><span>Machine Learning</span><span>SQL</span><span>Flask</span><span>Data Viz</span><span>Power BI</span><span>JavaScript</span><span>Pandas</span></div></div>
+
+    <section id="about" class="section about">
+      <div class="section-label mono"><span>01</span> ABOUT</div>
+      <div class="section-grid">
+        <div class="section-title">
+          <p class="eyebrow">WHO I AM</p>
+          <h2>Curious by default.<br><em>Builder by choice.</em></h2>
+        </div>
+        <div class="about-copy">
+          <p class="lead">I’m a college student studying Artificial Intelligence and Machine Learning, with a growing obsession for turning ideas into working projects.</p>
+          <p>My interests sit around Python, machine learning, data analysis, SQL, web development and visual design. I like understanding how things work, breaking them, fixing them, and occasionally remembering to commit the changes.</p>
+          <p>Right now I’m building my foundations in AI/ML while expanding into practical software development and data-driven applications.</p>
+          <div class="facts">
+            <div><span class="mono">CURRENT</span><strong>BSc AI & ML</strong><small>AAFT · Noida</small></div>
+            <div><span class="mono">FOCUS</span><strong>AI · Data · Web</strong><small>Learning through projects</small></div>
+            <div><span class="mono">STYLE</span><strong>Curious + Creative</strong><small>Clean interfaces, useful ideas</small></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="stack" class="section stack">
+      <div class="section-label mono"><span>02</span> TOOLKIT</div>
+      <div class="section-grid">
+        <div class="section-title">
+          <p class="eyebrow">CURRENT STACK</p>
+          <h2>Tools I use to<br><em>make things happen.</em></h2>
+          <figure class="netfig"><svg class="net" viewBox="0 0 320 200"></svg><figcaption class="mono">A TINY NEURAL NETWORK · HOVER IT</figcaption></figure>
+        </div>
+        <div class="stack-list">
+          <article><span class="num mono">01</span><div><h3>Languages</h3><p>Python · SQL · Java · HTML · CSS · JavaScript</p></div><span class="arrow">↗</span></article>
+          <article><span class="num mono">02</span><div><h3>AI / Data</h3><p>Machine Learning · Data Analysis · EDA · Visualisation</p></div><span class="arrow">↗</span></article>
+          <article><span class="num mono">03</span><div><h3>Development</h3><p>Flask · Responsive UI · Git · GitHub · APIs</p></div><span class="arrow">↗</span></article>
+          <article><span class="num mono">04</span><div><h3>Creative</h3><p>Canva · UI thinking · Presentations · Public speaking</p></div><span class="arrow">↗</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="section work">
+      <div class="section-label mono"><span>03</span> SELECTED WORK</div>
+      <div class="work-head">
+        <div><p class="eyebrow">PROJECTS</p><h2>Things I’ve <em>built.</em></h2></div>
+        <p class="work-intro">A mix of AI/ML experiments, data work, utilities and web projects. Small projects still count. Humans invented portfolios specifically to prove that.</p>
+      </div>
+
+      <div class="projects">
+        <a class="project featured" href="https://github.com/haadiya-hasan/Machine-Learning-1" target="_blank" rel="noreferrer">
+          <div class="project-art art-ml"><span>01</span><div class="graph"><i></i><i></i><i></i><i></i><i></i></div><b>MODEL / DATA</b></div>
+          <div class="project-info"><span class="mono">MACHINE LEARNING</span><h3>House Price Prediction</h3><p>Machine-learning work focused on preprocessing, prediction and evaluation using Python.</p><div class="tags"><span>Python</span><span>ML</span><span>Data</span></div><strong>View project ↗</strong></div>
+        </a>
+
+        <a class="project" href="https://github.com/haadiya-hasan/MathMaster-Web" target="_blank" rel="noreferrer">
+          <div class="project-art art-math"><span>02</span><div class="math">∫ x² dx<br><small>= x³ / 3</small></div><b>WEB / FLASK</b></div>
+          <div class="project-info"><span class="mono">FULL STACK</span><h3>MathMaster</h3><p>Interactive math quiz experience with difficulty levels, scoring and progression.</p><div class="tags"><span>Flask</span><span>HTML</span><span>CSS</span></div><strong>View project ↗</strong></div>
+        </a>
+
+        <a class="project" href="https://github.com/haadiya-hasan/EDA-on-different-Datasets" target="_blank" rel="noreferrer">
+          <div class="project-art art-eda"><span>03</span><div class="bars"><i></i><i></i><i></i><i></i><i></i></div><b>DATA / EDA</b></div>
+          <div class="project-info"><span class="mono">DATA SCIENCE</span><h3>EDA Collection</h3><p>Exploratory analysis across datasets, looking for patterns, relationships and useful visual stories.</p><div class="tags"><span>Pandas</span><span>Matplotlib</span><span>Seaborn</span></div><strong>View project ↗</strong></div>
+        </a>
+
+        <a class="project" href="https://github.com/haadiya-hasan/Digital-Clock" target="_blank" rel="noreferrer">
+          <div class="project-art art-clock"><span>04</span><div class="clock">14:51<span>:08</span></div><b>JAVASCRIPT</b></div>
+          <div class="project-info"><span class="mono">UTILITY</span><h3>Digital Clock</h3><p>A minimal real-time clock interface built around JavaScript logic and interaction.</p><div class="tags"><span>JavaScript</span><span>CSS</span></div><strong>View project ↗</strong></div>
+        </a>
+
+        <a class="project" href="https://github.com/haadiya-hasan/Tic-Tac-Toe" target="_blank" rel="noreferrer">
+          <div class="project-art art-game"><span>05</span><div class="tic">× ○<br>○ ×</div><b>GAME / LOGIC</b></div>
+          <div class="project-info"><span class="mono">INTERACTIVE</span><h3>Tic-Tac-Toe</h3><p>Browser game exploring interaction, game logic and an optional AI opponent.</p><div class="tags"><span>JavaScript</span><span>AI</span></div><strong>View project ↗</strong></div>
+        </a>
+
+        <a class="project" href="https://github.com/haadiya-hasan/Visualisation-Tools" target="_blank" rel="noreferrer">
+          <div class="project-art art-bi"><span>06</span><div class="pie"></div><b>VISUALISATION</b></div>
+          <div class="project-info"><span class="mono">ANALYTICS</span><h3>Power BI Projects</h3><p>Dashboards and visual analysis focused on turning raw information into something humans can actually read.</p><div class="tags"><span>Power BI</span><span>Excel</span><span>Data</span></div><strong>View project ↗</strong></div>
+        </a>
+      </div>
+    </section>
+
+    <section id="journey" class="section journey">
+      <div class="section-label mono"><span>04</span> JOURNEY</div>
+      <div class="section-grid">
+        <div class="section-title"><p class="eyebrow">EDUCATION + EXPERIENCE</p><h2>Still learning.<br><em>Already building.</em></h2></div>
+        <div class="timeline">
+          <article><span class="mono">2025 — NOW</span><div><h3>BSc Artificial Intelligence & Machine Learning</h3><p>AAFT · School of Data Science & AI, Noida</p><small>Programming · SQL · Computational Techniques · AI foundations · Data visualisation · Machine learning</small></div></article>
+          <article><span class="mono">2026</span><div><h3>Campus Projects & Activities</h3><p>Academic, creative and event-based work</p><small>Project building, presentations, collaboration, social media and hands-on technical experimentation.</small></div></article>
+          <article><span class="mono">NEXT</span><div><h3>Internship → MTech → Industry</h3><p>Long-term direction</p><small>Growing deeper into AI/ML while becoming a stronger software and data practitioner.</small></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="contact-top mono"><span>05 / CONTACT</span><span>OPEN TO OPPORTUNITIES</span></div>
+      <h2>Have an idea?<br><em>Let’s build it.</em></h2>
+      <p>For projects, collaborations, internships or interesting conversations about AI, data and development.</p>
+      <div class="contact-actions">
+        <a href="mailto:hasan.haadiya@gmail.com" class="button dark">Email me <span>↗</span></a>
+        <a href="https://github.com/haadiya-hasan" target="_blank" rel="noreferrer" class="button outline">GitHub <span>↗</span></a>
+        <a href="https://www.linkedin.com/in/haadiya-faruqi-6197b2387/" target="_blank" rel="noreferrer" class="button outline">LinkedIn <span>↗</span></a>
+      </div>
+      <div class="contact-grid">
+        <form class="cform" novalidate>
+          <label><span class="mono">YOUR NAME</span><input name="name" required placeholder="Ada Lovelace"></label>
+          <label><span class="mono">YOUR EMAIL</span><input name="email" type="email" required placeholder="ada@example.com"></label>
+          <label><span class="mono">MESSAGE</span><textarea name="msg" rows="4" required placeholder="Tell me about your idea…"></textarea></label>
+          <button class="button dark" type="submit">Send message <span>↗</span></button>
+          <p class="fnote mono" aria-live="polite"></p>
+        </form>
+        <aside class="cinfo">
+          <div class="avail"><i></i>Open to internships &amp; collaborations</div>
+          <div class="ltime"><span class="mono">LOCAL TIME · NOIDA</span><strong id="ist" class="mono">--:--:--</strong></div>
+          <button class="copy" type="button" data-copy="hasan.haadiya@gmail.com"><span class="mono">EMAIL</span>hasan.haadiya@gmail.com<em class="mono">COPY</em></button>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer mono"><span>© <span id="year"></span> HAADIYA FARUQI</span><a href="#home">BACK TO TOP ↑</a><span>BUILT WITH CURIOSITY + CODE</span></footer>
+  <script src="script.js"></script>
+  <script src="fx.js"></script>
+</body>
+</html>
